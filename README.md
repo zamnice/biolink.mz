@@ -9,6 +9,7 @@
 
 ## 📁 Struktur Folder
 
+```plain text
 /biolink.mz
 │── index.html
 │── style.css
@@ -19,6 +20,7 @@
 │── assets/
 │   │── images/
 │   │── icons/
+```
 
 ---
 
