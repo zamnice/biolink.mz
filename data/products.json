@@ -1,0 +1,95 @@
+[
+    {
+        "id": "prod1",
+        "name": "Template Presentasi Premium",
+        "category": "template",
+        "description": "Koleksi 50+ template presentasi profesional untuk berbagai kebutuhan bisnis dan akademik.",
+        "image": "assets/images/product1.jpg",
+        "price": 250000,
+        "oldPrice": 350000,
+        "rating": 4.8,
+        "reviews": 124,
+        "link": "https://lynk.id/merakitzam/template-presentasi"
+    },
+    {
+        "id": "prod2",
+        "name": "Social Media Toolkit",
+        "category": "tool",
+        "description": "Paket lengkap tool untuk manajemen media sosial termasuk template post, scheduler, dan analytics.",
+        "image": "assets/images/product2.jpg",
+        "price": 399000,
+        "oldPrice": 599000,
+        "rating": 4.9,
+        "reviews": 89,
+        "link": "https://lynk.id/merakitzam/social-toolkit"
+    },
+    {
+        "id": "prod3",
+        "name": "Course Digital Marketing",
+        "category": "course",
+        "description": "Video course lengkap tentang digital marketing dari dasar hingga strategi lanjutan.",
+        "image": "assets/images/product3.jpg",
+        "price": 799000,
+        "rating": 5,
+        "reviews": 56,
+        "link": "https://lynk.id/merakitzam/digital-marketing"
+    },
+    {
+        "id": "prod4",
+        "name": "Bundle UI/UX Designer",
+        "category": "bundle",
+        "description": "Paket lengkap untuk UI/UX designer termasuk template Figma, icon set, dan mockup kit.",
+        "image": "assets/images/product4.jpg",
+        "price": 899000,
+        "oldPrice": 1299000,
+        "rating": 4.7,
+        "reviews": 72,
+        "link": "https://lynk.id/merakitzam/uiux-bundle"
+    },
+    {
+        "id": "prod5",
+        "name": "Plugin WordPress Premium",
+        "category": "tool",
+        "description": "Koleksi 10 plugin WordPress premium untuk optimasi website dan fitur tambahan.",
+        "image": "assets/images/product5.jpg",
+        "price": 499000,
+        "rating": 4.5,
+        "reviews": 43,
+        "link": "https://lynk.id/merakitzam/wp-plugins"
+    },
+    {
+        "id": "prod6",
+        "name": "Template CV Kreatif",
+        "category": "template",
+        "description": "30+ template CV modern dan kreatif yang bisa disesuaikan dengan kebutuhan Anda.",
+        "image": "assets/images/product6.jpg",
+        "price": 149000,
+        "oldPrice": 199000,
+        "rating": 4.6,
+        "reviews": 98,
+        "link": "https://lynk.id/merakitzam/cv-template"
+    },
+    {
+        "id": "prod7",
+        "name": "Video Editing Pack",
+        "category": "bundle",
+        "description": "Paket lengkap untuk video editing termasuk template, transition, dan sound effect.",
+        "image": "assets/images/product7.jpg",
+        "price": 699000,
+        "oldPrice": 999000,
+        "rating": 4.8,
+        "reviews": 65,
+        "link": "https://lynk.id/merakitzam/video-pack"
+    },
+    {
+        "id": "prod8",
+        "name": "E-book Copywriting",
+        "category": "course",
+        "description": "Panduan lengkap copywriting untuk pemula hingga mahir dengan studi kasus nyata.",
+        "image": "assets/images/product8.jpg",
+        "price": 199000,
+        "rating": 4.9,
+        "reviews": 112,
+        "link": "https://lynk.id/merakitzam/copywriting-ebook"
+    }
+]
