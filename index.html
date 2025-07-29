@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MerakitZam | Solusi Digital Kreatif</title>
+    <meta name="description" content="Temukan produk digital kreatif terbaik dari MerakitZam dengan harga spesial!">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
+    
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo-merakitzam.png" alt="MerakitZam Logo" class="logo-img">
+                <span class="logo-text">MerakitZam</span>
+            </div>
+            <nav class="nav">
+                <a href="#products" class="nav-link">Produk</a>
+                <a href="#reviews" class="nav-link">Testimoni</a>
+                <a href="#news" class="nav-link">Update</a>
+                <button class="btn-login" id="loginBtn">Admin</button>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Raih Produk Digital <span class="highlight">Terbaik</span> dengan Harga Spesial!</h1>
+                <p class="hero-subtitle">Temukan solusi kreatif untuk kebutuhan digital Anda. Mulai dari template, tool, hingga paket lengkap.</p>
+                <div class="hero-cta">
+                    <a href="#products" class="btn-primary">Lihat Produk</a>
+                    <a href="#reviews" class="btn-secondary">Testimoni</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-image.png" alt="MerakitZam Products" class="hero-img">
+                <div class="floating-badge">
+                    <span>🔥 Terlaris!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3 class="stat-number" id="productCount">50+</h3>
+                <p class="stat-label">Produk Digital</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" id="customerCount">1000+</h3>
+                <p class="stat-label">Pelanggan</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" id="downloadCount">5000+</h3>
+                <p class="stat-label">Download</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="stat-number" id="ratingCount">4.9</h3>
+                <p class="stat-label">Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Produk <span class="highlight">Unggulan</span></h2>
+            <p class="section-subtitle">Temukan produk digital terbaik yang siap membantu kreativitas Anda</p>
+            
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper" id="productSlider">
+                    <!-- Products will be loaded from JSON via JavaScript -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="template">Template</button>
+                <button class="category-btn" data-category="tool">Tool</button>
+                <button class="category-btn" data-category="bundle">Bundle</button>
+                <button class="category-btn" data-category="course">Course</button>
+            </div>
+            
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded from JSON via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="featured-product">
+        <div class="container">
+            <div class="featured-content">
+                <span class="featured-badge">Produk Spesial Minggu Ini</span>
+                <h2 class="featured-title">Paket Ultimate Digital Creator</h2>
+                <p class="featured-desc">Dapatkan semua yang Anda butuhkan dalam satu paket lengkap: template, tool, dan panduan eksklusif.</p>
+                <ul class="featured-list">
+                    <li><i class="fas fa-check-circle"></i> 50+ Template Profesional</li>
+                    <li><i class="fas fa-check-circle"></i> 10 Tool Digital Eksklusif</li>
+                    <li><i class="fas fa-check-circle"></i> Video Tutorial Step-by-Step</li>
+                    <li><i class="fas fa-check-circle"></i> Update Gratis 1 Tahun</li>
+                </ul>
+                <div class="featured-price">
+                    <span class="original-price">Rp 1.500.000</span>
+                    <span class="discount-price">Rp 899.000</span>
+                    <span class="discount-percent">40% OFF</span>
+                </div>
+                <div class="featured-cta">
+                    <a href="https://lynk.id/merakitzam/ultimate-pack" class="btn-primary" id="featuredProductLink">Beli Sekarang</a>
+                    <a href="#product-demo" class="btn-secondary">Lihat Demo</a>
+                </div>
+            </div>
+            <div class="featured-image">
+                <img src="assets/images/featured-product.png" alt="Featured Product" class="featured-img">
+                <div class="floating-tag">BEST DEAL!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Apa Kata <span class="highlight">Mereka?</span></h2>
+            <p class="section-subtitle">Testimoni dari pelanggan puas MerakitZam</p>
+            
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Template dari MerakitZam sangat profesional dan mudah dikustomisasi. Sangat membantu bisnis saya!"</p>
+                        <div class="review-author">
+                            <img src="assets/images/review-1.jpg" alt="Reviewer" class="author-img">
+                            <div class="author-info">
+                                <h4 class="author-name">Andi Pratama</h4>
+                                <p class="author-title">Digital Marketer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="review-text">"Tool digitalnya sangat user friendly. Support timnya juga responsif banget. Recommended!"</p>
+                        <div class="review-author">
+                            <img src="assets/images/review-2.jpg" alt="Reviewer" class="author-img">
+                            <div class="author-info">
+                                <h4 class="author-name">Sarah Wijaya</h4>
+                                <p class="author-title">Content Creator</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Paket bundlenya worth it banget untuk harganya. Semua yang saya butuhkan ada di sini."</p>
+                        <div class="review-author">
+                            <img src="assets/images/review-3.jpg" alt="Reviewer" class="author-img">
+                            <div class="author-info">
+                                <h4 class="author-name">Rudi Hartono</h4>
+                                <p class="author-title">Freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="news">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="section-title">Dapatkan <span class="highlight">Update</span> Terbaru</h2>
+                <p class="section-subtitle">Daftar newsletter untuk info produk baru, diskon, dan tips digital eksklusif!</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Email Anda" required class="newsletter-input">
+                    <button type="submit" class="btn-primary">Daftar Sekarang</button>
+                </form>
+                <p class="newsletter-note">Kami tidak akan mengirim spam. Batalkan kapan saja.</p>
+            </div>
+            <div class="newsletter-image">
+                <img src="assets/images/newsletter.png" alt="Newsletter" class="newsletter-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan <span class="highlight">Umum</span></h2>
+            <p class="section-subtitle">Temukan jawaban untuk pertanyaan yang sering diajukan</p>
+            
+            <div class="faq-accordion">
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span class="accordion-title">Bagaimana cara membeli produk MerakitZam?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Anda bisa membeli produk kami melalui link yang tersedia di setiap produk. Kami menggunakan Lynk.id sebagai platform pembayaran yang terpercaya.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span class="accordion-title">Apakah produk digital ini bisa di-update?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Ya, sebagian besar produk kami mendapatkan update gratis selama 1 tahun. Anda akan mendapatkan notifikasi via email ketika update tersedia.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span class="accordion-title">Bagaimana jika saya tidak puas dengan produknya?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Kami menawarkan garansi uang kembali 7 hari jika produk tidak sesuai deskripsi. Silakan hubungi tim support kami.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-btn">
+                        <span class="accordion-title">Apakah ada diskon untuk pembelian dalam jumlah banyak?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Ya, kami menawarkan diskon khusus untuk pembelian bundle atau pembelian dalam jumlah banyak. Hubungi kami untuk penawaran khusus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Siap Mengambil Kreativitas Digital Anda ke Level Berikutnya?</h2>
+            <p class="cta-subtitle">Temukan solusi terbaik untuk kebutuhan digital Anda sekarang juga!</p>
+            <div class="cta-buttons">
+                <a href="#products" class="btn-primary">Lihat Semua Produk</a>
+                <a href="#chatbot" class="btn-secondary">Tanya Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget" id="chatbot">
+        <div class="chatbot-header">
+            <div class="chatbot-title">
+                <img src="assets/icons/chatbot-icon.png" alt="Chatbot" class="chatbot-icon">
+                <h3>MerakitZam Bot</h3>
+            </div>
+            <button class="chatbot-close" id="chatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chatbot-message bot-message">
+                <p>Halo! Saya MerakitZam Bot. Ada yang bisa saya bantu tentang produk kami?</p>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" placeholder="Ketik pesan Anda..." id="chatbotInput">
+            <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <i class="fas fa-comment-dots"></i>
+    </button>
+
+    <!-- Admin Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="modal-close" id="modalClose">&times;</span>
+            <h2 class="modal-title">Login Admin</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="assets/images/logo-merakitzam.png" alt="MerakitZam Logo" class="logo-img">
+                        <span class="logo-text">MerakitZam</span>
+                    </div>
+                    <p class="footer-about">Solusi digital kreatif untuk membantu Anda meraih produktivitas maksimal.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Produk</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Template</a></li>
+                        <li><a href="#" class="footer-link">Digital Tools</a></li>
+                        <li><a href="#" class="footer-link">Bundles</a></li>
+                        <li><a href="#" class="footer-link">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Bantuan</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">FAQ</a></li>
+                        <li><a href="#" class="footer-link">Panduan</a></li>
+                        <li><a href="#" class="footer-link">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="footer-link">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Kontak</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> hello@merakitzam.com</li>
+                        <li><i class="fas fa-phone"></i> +62 123 4567 890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2023 MerakitZam. All rights reserved.</p>
+                <div class="payment-methods">
+                    <img src="assets/icons/payment-methods.png" alt="Payment Methods" class="payment-img">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
