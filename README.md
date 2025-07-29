@@ -9,7 +9,16 @@
 
 ## 📁 Struktur Folder
 
-/biolink.mz │── index.html              # Halaman utama landing page │── style.css               # Styling dan branding warna MerakitZam │── script.js               # Interaktivitas (klik tracker, animasi, dll) │ │── data/ │   │── products.json       # Data produk yang ditampilkan │   │── stats.json          # Statistik klik link (dummy/local) │ │── assets/ │   │── images/             # Gambar produk, ilustrasi │   │── icons/              # Ikon sosial media atau fitur
+/biolink.mz
+│── index.html
+│── style.css
+│── script.js
+│── data/
+│   │── products.json
+│   │── stats.json
+│── assets/
+│   │── images/
+│   │── icons/
 
 ---
 
